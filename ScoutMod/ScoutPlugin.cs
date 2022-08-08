@@ -29,7 +29,7 @@ namespace ScoutMod
     {
         public const string MODUID = "com.vulf.ScoutMod";
         public const string MODNAME = "ScoutMod";
-        public const string MODVERSION = "0.1.0";
+        public const string MODVERSION = "0.3.0";
 
         public const string DEVELOPER_PREFIX = "VULF";
 
