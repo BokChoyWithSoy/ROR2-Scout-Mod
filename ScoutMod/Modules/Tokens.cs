@@ -13,7 +13,7 @@ namespace ScoutMod.Modules
             string desc = "Scout is a high mobility survivor that faces foes head on.<color=#CCD3E0>" + Environment.NewLine + Environment.NewLine;
             desc = desc + "< ! > The Scattergun is a high damage shotgun most effective at close range." + Environment.NewLine + Environment.NewLine;
             desc = desc + "< ! > The Sandman fires a fast arcing projectile that stuns foes allowing Scout to close the distance safely." + Environment.NewLine + Environment.NewLine;
-            desc = desc + "< ! > Roll is a quick way to stay out of danger by providing invincibility." + Environment.NewLine + Environment.NewLine;
+            desc = desc + "< ! > The mad milk allows you and your allies to heal of damage dealt to enemies covered in milk." + Environment.NewLine + Environment.NewLine;
             desc = desc + "< ! > The Crit-a-Cola grants Scout Mini-Crits on command that provide a 1.35 damage multiplier and removes damage falloff from his weapons." + Environment.NewLine + Environment.NewLine;
 
             string outro = "..and so he left, ready for his next fight.";
@@ -38,7 +38,7 @@ namespace ScoutMod.Modules
 
             #region Primary
             LanguageAPI.Add(prefix + "SCATTERGUN_NAME", "Scattergun");
-            LanguageAPI.Add(prefix + "SCATTERGUN_DESCRIPTION", Helpers.agilePrefix + $"Swing forward for <style=cIsDamage>{100f * StaticValues.scattergunDamageCoefficient}% damage</style>.");
+            LanguageAPI.Add(prefix + "SCATTERGUN_DESCRIPTION", Helpers.agilePrefix + $"Fire your weapon dealing <style=cIsDamage>10 x {100f * StaticValues.scattergunDamageCoefficient}% damage</style>.");
             #endregion
 
             #region Secondary
